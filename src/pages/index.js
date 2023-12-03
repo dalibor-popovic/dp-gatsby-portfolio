@@ -26,7 +26,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <Header theme={theme} setTheme={setTheme} />
-      <Hero theme={theme} />
+      <Hero />
       <About />
       <Projects />
       <Contact />
@@ -37,4 +37,24 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>Dalibor Popovic</title>;
+export const Head = () => (
+  <>
+    <title>Dalibor Popovic</title>
+    <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />
+    <meta
+      name='viewport'
+      content='width=device-width,
+      initial-scale=1.0'
+    />
+    <meta charSet='utf-8' />
+    <meta name='description' content='Frontend developer' />
+    <meta property='og:image' content='favicon-32x32.png' />
+    <meta property='og:title' content='Dalibor Popovic' key='ogtitle' />
+    <meta property='og:site_name' content='Dalibor Popovic' key='ogsitename' />
+    <meta
+      property='og:description'
+      content='Frontend developer'
+      key='ogdescription'
+    />
+  </>
+);

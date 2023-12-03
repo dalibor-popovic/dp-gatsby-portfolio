@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticImage as Image } from 'gatsby-plugin-image';
 
-export const Hero = ({ theme }) => {
+export const Hero = () => {
   return (
     <section className='container max-w-4xl mx-auto sm:pt-24 pt-8 sm:pb-8 pb-16 px-4'>
       <div className='flex flex-wrap justify-center gap-8'>
@@ -105,19 +105,9 @@ export const Hero = ({ theme }) => {
           </div>
         </div>
         <div className='md:flex-[0.5] flex justify-center items-center'>
-          <div className='w-fit overflow-hidden relative border-2 border-black dark:border-white bg-black dark:bg-white shadow-[6px_6px_0px_rgba(0,0,0,1)] dark:shadow-[6px_6px_0px_rgba(255,255,255,1)]'>
-            <p
-              className={`${
-                theme === 'dark' ? 'text-dark' : 'text'
-              } z-10 top-left`}
-            >
-              2023...
-            </p>
-            <p
-              className={`${
-                theme === 'dark' ? 'text-dark' : 'text'
-              } z-10 bottom-right`}
-            >
+          <div className='w-fit overflow-hidden relative border-2 border-black dark:border-white bg-white shadow-[6px_6px_0px_rgba(0,0,0,1)] dark:shadow-[6px_6px_0px_rgba(255,255,255,1)]'>
+            <p className={`text text-black z-10 top-left`}>2023...</p>
+            <p className={`text text-black z-10 bottom-right`}>
               console.log('Hello world')
             </p>
 

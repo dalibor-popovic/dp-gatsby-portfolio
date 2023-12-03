@@ -17,7 +17,7 @@ export const Header = ({ theme, setTheme }) => {
           <a
             href='https://github.com/dalibor-popovic'
             target='_blank'
-            rel='noopener'
+            rel='noreferrer'
           >
             <svg
               width='24'

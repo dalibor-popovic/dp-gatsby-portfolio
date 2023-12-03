@@ -4,10 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `dp-gatsby-portfolio`,
-    siteUrl: `https://www.yourdomain.tld`,
-  },
-  flags: {
-    DEV_SSR: true,
+    siteUrl: `https://daliborpopovic.netlify.app/`,
   },
   plugins: [
     'gatsby-plugin-postcss',
@@ -16,7 +13,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        icon: 'src/images/sun.svg',
+        icon: 'src/images/icon.png',
       },
     },
     'gatsby-plugin-sharp',

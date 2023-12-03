@@ -4,7 +4,7 @@ import React from 'react';
 export const About = () => {
   return (
     <section className='container mx-auto max-w-4xl px-4 flex flex-wrap-reverse justify-center gap-8 md:py-16'>
-      <div className='w-fit md:flex-[0.5] overflow-hidden relative border-2 border-black dark:border-white bg-black dark:bg-white shadow-[6px_6px_0px_rgba(0,0,0,1)] dark:shadow-[6px_6px_0px_rgba(255,255,255,1)]'>
+      <div className='w-fit md:flex-[0.5] overflow-hidden relative border-2 border-black dark:border-white bg-white shadow-[6px_6px_0px_rgba(0,0,0,1)] dark:shadow-[6px_6px_0px_rgba(255,255,255,1)]'>
         <Image
           src='../images/office-work.png'
           alt='laptop javascript code'

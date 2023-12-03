@@ -11,14 +11,13 @@ export const Contact = () => {
         <div className='w-full'>
           <div
             style={{
-              animation:
-                'scale-up-center 1s cubic-bezier(0.4, 0, 0.2, 1) both;',
+              animation: 'scale-up-center 1s cubic-bezier(0.4, 0, 0.2, 1) both',
             }}
           >
             <a
               href='https://github.com/dalibor-popovic'
               target='_blank'
-              rel='noopener'
+              rel='noreferrer'
             >
               <div className='dark:bg-white w-full bg-black duration-200 rounded-xl'>
                 <div className='bg-white rounded-xl dark:bg-black dark:border-white active:translate-x-0 active:translate-y-0 flex items-center border-black border-2 duration-200 px-4 py-2 -translate-x-1 -translate-y-1 hover:-translate-x-1.5 hover:-translate-y-1.5 w-full'>
@@ -62,8 +61,7 @@ export const Contact = () => {
         <div className='w-full'>
           <div
             style={{
-              animation:
-                'scale-up-center 1s cubic-bezier(0.4, 0, 0.2, 1) both;',
+              animation: 'scale-up-center 1s cubic-bezier(0.4, 0, 0.2, 1) both',
             }}
           >
             <div className='dark:bg-white w-full bg-black duration-200 rounded-xl'>
