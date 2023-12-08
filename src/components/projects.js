@@ -4,7 +4,7 @@ import React from 'react';
 export const Projects = () => {
   return (
     <section className='container max-w-4xl mx-auto md:py-8 px-4 py-16'>
-      <h3 className='font-bold text-amber-500'>PROJECTS</h3>
+      <h3 className='font-bold text-amber-500'>SIDE PROJECTS</h3>
       <div className='flex pt-2 flex-wrap justify-center gap-8'>
         <div className='md:flex-[0.5]'>
           <h2 className='text-3xl font-bold'>Teamsync</h2>
