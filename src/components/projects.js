@@ -104,44 +104,6 @@ export const Projects = () => {
             />
           </a>
         </div>
-        <div className='md:flex-[0.5]'>
-          <h2 className='text-3xl font-bold'>Artivisual</h2>
-          <p className='text-gray-400 pb-2'>
-            This platform seamlessly merges the content of one image with the
-            distinctive style of another, resulting unique compositions. I
-            played a pivotal role in shaping the frontend, ensuring a seamless
-            user experience.
-          </p>
-          <div className='flex justify-center md:justify-start gap-4 pt-2'>
-            <a
-              href='https://www.artivisual.app/'
-              target='_blank'
-              rel='noreferrer'
-              className='relative inline-block px-3 py-1 font-medium group text-md'
-            >
-              <span className='absolute rounded-lg inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black dark:bg-white group-hover:-translate-x-0 group-hover:-translate-y-0'></span>
-              <span className='absolute rounded-lg inset-0 w-full h-full bg-white dark:bg-black border-2 border-black dark:border-white group-hover:bg-black dark:group-hover:bg-white'></span>
-              <span className='relative flex gap-2 items-center text-black dark:text-white group-hover:text-white dark:group-hover:text-black'>
-                Live preview
-                <svg
-                  width='16'
-                  height='16'
-                  viewBox='0 0 16 16'
-                  fill='none'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path
-                    d='M12.0003 9.33334V12.5553C12.0004 12.6575 11.9804 12.7587 11.9413 12.8532C11.9022 12.9476 11.8449 13.0334 11.7727 13.1057C11.7004 13.1779 11.6146 13.2352 11.5202 13.2743C11.4257 13.3134 11.3245 13.3334 11.2223 13.3333H3.44499C3.3428 13.3334 3.24159 13.3134 3.14716 13.2743C3.05273 13.2352 2.96693 13.1779 2.89467 13.1057C2.82241 13.0334 2.7651 12.9476 2.72604 12.8532C2.68697 12.7587 2.6669 12.6575 2.66699 12.5553V4.77801C2.6669 4.67581 2.68697 4.5746 2.72604 4.48017C2.7651 4.38574 2.82241 4.29994 2.89467 4.22768C2.96693 4.15542 3.05273 4.09812 3.14716 4.05905C3.24159 4.01998 3.3428 3.99992 3.44499 4.00001H6.52366M9.48833 2.66667H13.3337V6.512M8.07433 7.92601L13.2597 2.74067'
-                    className='stroke-[#000] group-hover:stroke-[#fff] dark:stroke-[#fff] dark:group-hover:stroke-[#000]'
-                    strokeWidth='1.5'
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                  />
-                </svg>
-              </span>
-            </a>
-          </div>
-        </div>
       </div>
     </section>
   );
