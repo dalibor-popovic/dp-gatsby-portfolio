@@ -88,23 +88,6 @@ export const Projects = () => {
           </a>
         </div>
       </div>
-      <div className='flex pt-16 flex-wrap-reverse justify-center gap-8'>
-        <div className='w-fit md:flex-[0.5] overflow-hidden md:ml-auto border-2 border-black dark:border-white bg-white shadow-[6px_6px_0px_rgba(0,0,0,1)] dark:shadow-[6px_6px_0px_rgba(255,255,255,1)]'>
-          <a
-            href='https://www.artivisual.app/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <Image
-              className='hover:translate-x-1 hover:translate-y-1 transition duration-200 ease-out'
-              src='../images/artivisual.png'
-              alt='Artivisual'
-              width={420}
-              height={280}
-            />
-          </a>
-        </div>
-      </div>
     </section>
   );
 };
